@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <title>Document</title>
+    
+    
+    <style>
+      p {
+        padding: 10px;
+        background: #ffaaff;
+      }
+    </style>
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <h1>The weather here</h1>
+    <div><a href="index.html">previous</a> || <a href="logs">next</a></div>
+    <p>latitude: <span id="latitude"></span>&deg;<br /></p>
+    <p>longitude: <span id="longitude"></span>&deg;<br /></p>
+    <p>
+      The weather here is <span id="summary"></span> with a temperature of
+      <span id="temperature"></span>&deg; Farenheit The concentration of
+      particulate matter( <span id="aq_parameter"></span>) is<span
+        id="aq_value"
+      ></span>
+      <span id="aq_units"></span>last read on <span id="aq_date"></span>
+      
+    </p>
+  </body>
+</html>
