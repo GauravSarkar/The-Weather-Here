@@ -22,7 +22,7 @@ function setup() {
         document.getElementById("summary").textContent =
           json.weat.weather[0].description;
         document.getElementById("temperature").textContent =
-          json.weat.main.temp;
+          ((json.weat.main.temp)-32)/1.80;
         console.log(json);
         document.getElementById("aq_parameter").textContent = air.parameter;
         document.getElementById("aq_value").textContent = air.value;
